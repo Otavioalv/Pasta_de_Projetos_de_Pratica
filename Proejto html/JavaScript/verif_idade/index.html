@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Foumulario</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="iCentral">
+            <h1>Verificador de Idade</h1>
+            <form id="iFormulario">
+                <div>
+                    <label for="iNascimento">Ano de Nascimento:</label>
+                    <input type="number" name="nNascimento" id="iNascimento">
+                </div>
+
+                <div>
+                    <label for="">Sexo:</label>
+                    <input type="radio" name="nSexo" id="iSmasc" value="Masculino">
+                    <label for="iSmasc">Masculino</label>
+                    <input type="radio" name="nSexo" id="iSfem" value="Feminino">
+                    <label for="iSfem">Feminino</label>
+                </div>
+
+                
+                <input type="button" value="verificar" id="iVerifica" onclick="verificar();">
+
+                <div id="iDetect">
+                    <h1 id="iResultado">Detectamos </h1>
+                    <h2 id="iResul">h</h2>
+                </div>
+            </form>
+        </div>
+        <!-- <input type="color" name="" id=""> -->
+    </body>
+</html>

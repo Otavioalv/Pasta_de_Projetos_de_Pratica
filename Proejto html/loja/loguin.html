@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+	<head>
+		<meta charset="UTF-8"/>
+		<title>LOGUIM</title>
+		<link rel="stylesheet" type="text/css"  href="styleloguin.css"/>
+	</head>
+	
+	<body>
+		<form id="formu">
+		
+			<section id="buttom class-"tecla"Img"> 
+				
+				<label for="cArq"><img src="contato-ussuario.png"/></label>
+				<button id="addImg"><label for="cArq" >+</label></button> 
+				<!-- <input type="button" value="+" id="addImg" for="cArq"/> -->
+				
+				<input type="file" id="cArq" accept="image/png, image/jpeg" class="istImg"style="display: none;"/>
+			</section>
+			
+			<ul id="title">
+				<input type="radio" name="opc" id="ck1" checked />
+				<input type="radio" name="opc" id="ck2"/>
+				
+				<li class="clic1"><label for="ck1">Login</label></li>
+				<li class="clic2"><label for="ck2" class="c">Sing&nbsp;Up</label></li>
+				
+				<!-- <p class="singup">
+						<label for="cName">FULL NAME</label>
+						<input type="text" id="cName"/>
+				</p> -->
+			</ul>
+			
+				<section id="loguin">
+					<!-- <p class="singup">
+						<label for="cName">FULL NAME</label>
+						<input type="text" id="cName"/>
+					</p> -->
+					
+					
+					<p>
+						<label for="cMail">EMAIL</label>
+						<input type="email" id="cMail"/>
+					</p>
+					
+					<p>
+						<label for="cPass" >PASSWORD</label>
+						<input type="password" id="cPass"/>
+					</p>
+					
+					<!-- <p class="singup">
+						<label for="cRpas"> RETYPE PASSWORD</label>
+						<input type="password" id="cRpas"/>
+					</p> -->
+				</section>
+				<input type="button" value="Submit" class="submit">
+				<input type="button" value="FORGET YOUR PASSWORD?" class="fyp">
+		</form>
+	</body>
+</html>

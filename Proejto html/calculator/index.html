@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="functions.js"></script>
+    </head> 
+
+    <body>  
+        
+        <div class="Calculator">
+            
+            <div class="tela">
+                <input type="text" id="result" placeholder="0" readonly style="text-align: right; border: none;"/>
+            </div>
+
+            <div class="linha">
+                <buttom class="tecla_operacion" onclick="tela('C')" style="color: #960101">C</buttom>
+                <buttom class="tecla_operacion" onclick="tela('%')">%</buttom>
+                <buttom class="tecla_operacion" onclick="tela('/')">&divide;</buttom>    
+                <buttom class="tecla_operacion" onclick="tela('*')">x</buttom>
+            </div>
+            
+            <div class="linha">
+                <buttom class="tecla" onclick="tela('7')">7</buttom>
+                <buttom class="tecla" onclick="tela('8')">8</buttom>
+                <buttom class="tecla" onclick="tela('9')">9</buttom>
+                <buttom class="tecla_operacion" onclick="tela('-')">-</buttom>
+            </div>
+
+            <div class="linha">
+                <buttom class="tecla" onclick="tela('4')">4</buttom>
+                <buttom class="tecla" onclick="tela('5')">5</buttom>
+                <buttom class="tecla" onclick="tela('6')">6</buttom>    
+                <buttom class="tecla_operacion" onclick="tela('+')">+</buttom>
+            </div>
+            
+            <div class="linha">
+                <buttom class="tecla" onclick="tela('1')">1</buttom>
+                <buttom class="tecla" onclick="tela('2')">2</buttom>
+                <buttom class="tecla" onclick="tela('3')">3</buttom>    
+                <buttom class="tecla_equal" onclick="calc()">=</buttom>
+            </div>
+
+            <div class="linha_end">
+                <buttom class="tecla_zero" onclick="tela('0')">0</buttom>
+                <buttom class="tecla_operacion" onclick="tela('e')" style="font-size:20px;color:#960101;">x<div id="erase"></div></buttom>
+            </div>
+        </div>
+    </body>
+</html>

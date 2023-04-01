@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+/* cor interface cima RGB(4, 197, 130) ==
+cor front RGB(46, 49, 55); */
+
+
+body{
+	background-color: #04c582;
+	font-family: sans-serif;
+}
+
+
+/* Objeto inteiro */
+form#formu{
+	position: relative;
+	/* left: 35%;*/
+	top: 200px; 
+	margin: auto;
+	color: #ffffff;
+	background-color: #2e3137; 
+	border-radius: 30px; 
+	box-shadow: 0px 55px 90px 10px rgba(0, 0, 0, .8);
+	width: 470px;
+	height: 500px;
+	padding:10px;
+}
+
+/* loguin e sing up */
+ul#title{
+	/* background-color: rgba(0, 0, 0, .5); */
+	position: relative;
+	width: 400x;
+	display: block;
+	bottom: 90px;
+	left: 0px;
+}
+
+ul#title li{
+	/* background-color: rgba(0, 0, 0, .5); */
+	display: inline-block;
+	color: #636b7b;
+	font-size: 20px;
+	font-weight: bold;
+	margin: -2.2px;
+	width: 10px;
+	padding: 10px 130px 10px 60px;
+	border-bottom: 2px solid #4b5351;
+	cursor: pointer;
+} 
+
+ul#title input{
+	display: none;
+}
+
+ul#title label{
+	/* background-color: rgba(0, 0, 0, .5); */
+	position: relative;
+	right: 60px;
+	padding: 10px 70px 10px 70px;
+	cursor: pointer;
+}
+
+.singup{
+	display: inline-block;
+} 
+
+input[type=radio]:not(:checked)#ck2 ~ .singup{
+	display: none;
+}
+
+input[type=radio]#ck1:checked ~ .clic1,  input[type=radio]#ck2:checked ~ .clic2{
+	color: #ffffff;
+	border-bottom: 4px solid #ffffff;
+} 
+
+/* input[type=radio]#ck2:checked ~ .clic2{
+	color: #ffffff;
+	border-bottom: 4px solid #ffffff;
+} */
+
+
+/* ul#title li:active{
+	color: #ffffff;
+	border-bottom: 4px solid #ffffff;
+} 
+
+/* ul#title li:active{
+	color: #ffffff;
+	border-bottom: 4px solid #ffffff;
+}
+
+/* .clic{
+	color: black;
+	padding: 1000px;
+}
+
+input[type=checkbox]:checked ~ .clic{
+	color: red;
+} */
+
+/* email e password */
+section#loguin{
+	/* background-color: rgba(0, 0, 0, .3); */
+	position: relative;
+	font-weight: bold;
+	top: 30px;
+}
+
+section#loguin p, .singup{
+	/* background-color: rgba(0, 0, 0, .5); */
+	position: relative;
+	margin: 17px;
+	padding: 10px;
+}
+
+section#loguin label{
+	/* background-color: rgba(0, 0, 0, 1); */
+	position: relative;
+	display: grid;
+	bottom: 102px;
+	left: 20px; 
+	width: 90px;
+	font-size: 14.5px;
+	color: #545d6a;
+	cursor: pointer;
+}
+
+section#loguin input{
+	/*background-color: rgba(0, 0, 0, .3); */
+	position: relative;
+	display: grid;
+	left: 13px;
+	bottom: 100px;
+	width: 367px;
+	height: 27px;
+	border: 0px;
+	border-radius: 12px;
+	background: #545d6a;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px;
+}
+
+/* Submit e forget your password */
+.submit{
+	position: absolute;
+	color: #ffffff;
+	background-color: #04c582;
+	left: 150px;
+	bottom: 80px;
+	width: 200px;
+	height: 50px;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	font-size: 19px;
+	text-align: center;
+	border: 0px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.submit:hover{
+	background-color: #26eba6;
+}
+
+
+.fyp{
+	position: absolute;
+	left: 146px;
+	bottom: 36px;
+	color: #545d6a;
+	background: none;
+	border: 0px;
+	border-bottom: 2px solid #545d6a;
+	font-weight: 900;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.fyp:hover{
+	color: #6c7582;
+}
+
+
+/* Imagem Icone */
+section#buttomImg{
+	background: #636b7b;
+	position: relative;
+	left: 160px;
+	bottom: 85px;
+	height: 150px;
+	width: 150px;
+	margin: 0px;
+	border: 5px solid #545d6a;
+	border-radius: 90px;
+}
+
+section#buttomImg img{
+	width: 150px;
+	border-radius: 90px;
+	cursor: pointer;
+}
+
+section#buttomImg button#addImg{
+	position: relative;
+	left: 120px;
+	bottom: 39px;
+	height: 20px;
+	width: 20px;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0px;
+	background-color: #04c582;
+	border: 2px solid #ffffff;
+	border-radius: 90px;
+	color: #ffffff;
+	cursor: pointer;
+	/* font-weight: bold; */
+}
+
+section#buttomImg button#addImg label{
+	/* background-color: rgba(0, 0, 0, .3); */
+	position: relative;
+	bottom: 11px;
+	right: 10.5px;
+	padding: 5px;
+	border-radius: 90px; 
+	cursor: pointer;
+}

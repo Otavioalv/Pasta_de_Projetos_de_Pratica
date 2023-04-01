@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+    background-color: #3d81d1;
+    color: #ffffff;
+    font-family:'Segoe UI', sans-serif;
+}
+
+/* DIV QUE CENTRALIZA   */
+div#iCentral{
+    /* background-color: black; */
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 70vh;
+}
+
+div#iCentral h1{
+    text-align: center;
+    font-size: 4vh;
+}
+
+/* FORMULARIO */
+form#iFormulario{
+    background-color: #ffffff;
+    color: #000000;
+    height: 100%;
+    border-radius: 2vh;
+    margin: auto;
+    padding: 3vh;
+    padding-left: 2vh;
+}
+
+form#iFormulario div{
+    margin: auto;
+    margin-bottom: 3vh;
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+form#iFormulario div#iDetect{
+  /*   background-color: rgba(0, 0, 0, 0.048); */
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 50%;
+    width: 40vh;
+    text-align: center;
+    margin: auto;
+}
+
+h1#iResultado, h2#iResul{
+    display: none;
+}
